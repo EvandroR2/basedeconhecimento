@@ -40,12 +40,14 @@ and open the template in the editor.
 				    			<div class="coluna col7" >
 				    				 <!--class="menu inline sem-marcador"-->
 					    			<ul class="menu">
-					    				<li><a href="index.php">Início</a></li>
+					    				<!--<li><a href="?p=sair">Sair</a></li>-->
+					    				<li><a href="?p=sair">SAIR</a></li>
 					    				<li><a href="?p=testelampada">teste da lampada</a></li>
 					    				<li><a>Ajuda</a>
 					    					<ul>
 					    						<li><a href="?p=manualindices">Manual</a></li>
 					    						<li><a href="?p=operacoes">Operações</a></li>
+
 					    						
 					    					</ul>
 					    				</li>
@@ -55,6 +57,7 @@ and open the template in the editor.
 						    				<ul>
 						    					<li><a href="?p=processosinternos">Processos Internos</a></li>
 						    					<li><a href="?p=processosclientes">Processos Clientes</a></li>
+
 						    				</ul>
 						    			</li>
 						    		</ul>
