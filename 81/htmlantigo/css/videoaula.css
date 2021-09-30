@@ -1,0 +1,46 @@
+/* NAVEGADOR */
+ ul#menuvideo {
+margin: 0;
+padding: 0;
+list-style: none;
+width: 200px;
+}
+ ul#menuvideo li {
+position: relative;
+}
+li ul {
+position: absolute;
+left: 159px;
+top: 0;
+display: none;
+}
+ul#menuvideo li a {
+   display: block;
+   text-decoration: none;
+   color: #E2144A;
+   background: #fff;
+   padding: 5px;
+   border: 1px solid #ccc; 
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+
+ul#menuvideo li a:hover{
+text-decoration:underline;
+font-weight: bold;
+background: #ccc; }
+/* End */
+li:hover ul {
+	display: block;
+	width: 200px;
+}
+/* FIM DO NAVEGADOR*/
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+iframe {
+  display: block;
+  position: relative;
+}

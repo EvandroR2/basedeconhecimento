@@ -1,0 +1,73 @@
+section#video {
+	display: block;
+	width: 400px;
+	float: left;
+	position: relative;
+	/*padding-top: 20px;*/
+	padding: 20px 20px;
+	/*background-image: url(../img/wallpaperteste2pc.png);*/
+	background-size: auto;
+	/*width: auto;*/
+	
+}
+section#videofull {
+	display: block;
+	width: auto;
+	float: center;
+	text-align: justify;
+	border-bottom: 1px #fff double;
+}
+
+section#videofull p {
+	text-align: justify;
+	text-indent: 20px;
+	color: #ccc;
+}
+
+
+section#video h1 {
+	font-size: 36pt;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-align: left;
+}
+section#video h2 ,h3 {
+	font-size: 18pt;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-align: left;
+}
+
+section#framevideo {
+	padding-top: 10px;
+	display: block;
+	width: 500px;
+	height: 600px;
+	float: right;
+	position: relative;
+	border-left: 1px #fff double;
+	
+}
+section#framevideo h1 {
+	color: black;
+}
+section#framevideo iframe {
+	position: absolute;
+	padding: 10px 25px;
+	display: block;
+	float: right;
+	height: 380px;
+	width: 420px;
+	border: none;
+	overflow: hidden;
+	overflow: -moz-scrollbar-none;
+	-ms-overflow-style: none;
+}
+iframe::-webkit-scrollbar {
+  display: none;
+}
+iframe { overflow:hidden; }
